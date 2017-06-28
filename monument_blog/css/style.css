@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+font-family: "Raleway";
+font-weight: 600;
+color:#44545E;
+text-transform: uppercase;
+width: 940px;
+margin: auto;
+margin-top: 25px;
+}
+a {
+	color: #7B98AA;
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+}
+nav a{
+	font-size: 16px;
+	text-align: center;
+	margin: 0 60px;
+}
+nav a:hover   {
+	color: #44545E;
+}
+h1{
+	font-size: 37px;
+	text-align: center;
+	margin: 87px;
+	letter-spacing: 12px;
+}
+header {
+	background-image: url('../images/blog_header_bg.jpg');
+	height: 300px;
+}
+h1 a{
+	color:#44545E;
+}
+h3{
+	font-size: 18px;
+	margin-top: 80px;
+}
+p{
+	font-family: "Lato";
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: none;
+	margin: 30px 0;
+	line-height: 22px;
+}
+h2{
+	font-size: 23px;
+	margin-bottom: 50px;
+}
+/* Fix for responsive images */
+
+.recentissues li {
+	margin: 15px 15px 15px 15px;
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: none;
+	color: #7B98AA;
+}
+img {
+	max-width: 100%;
+}
+footer{
+	background-color: #CDF3F6;
+	padding: 20px 0 ;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 55px;
+}
+hr{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+footer a{
+	font-size: 15px;
+	font-family: "Lato";
+	font-weight: bold;
+	color:#44545E;
+}
+footer .social-networks a{
+	margin-right: 20px;
+	margin-left: 20px;
+}
