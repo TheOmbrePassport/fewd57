@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+body{
+	font-family: "Raleway";
+	font-weight: 600;
+	color: #44545E;
+	text-transform: uppercase;
+	text-align: center;
+}
+nav{
+	padding-bottom: :20px;
+}
+nav a{
+	color: #7B98AA;
+	text-align: center;
+	margin: 0 60px;
+	text-decoration: none;
+}
+nav a:hover   {
+	color: #44545E;
+}
+header{
+	background-image: url('../images/home_header_bg.jpg');
+	background-size: cover;
+	line-height:50px;
+	height:700px;
+	padding-top: 300px;
+}
+
+img{
+	max-width: 100%;
+}
+h1 a{
+	font-size: 37px;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 25px;
+}
+
+h2{
+	font-size: 23px;
+	color: white;
+}
+.archive{
+	color: #44545E;
+	padding-top: 125px;
+ 	padding-bottom:35px;
+	font-size: 23px;
+}
+.issue{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 18px;
+}
+
+p{
+	text-transform: none;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 15px:
+
+}
+.about{
+	color: #44545E;
+	padding-top: 120px;
+}
+.lifestyle{
+	background-color: #C8F0F4;
+	justify-content: space-around;
+}
+
+.lifestyle p{
+	padding-bottom: 100px;
+}
+.twenty{
+	color: #44545E;
+	padding-top: 105px;
+	padding-bottom: 35px;
+}
+h3{
+	padding-bottom:40px;
+	font-size: 18px;
+}
+h4{
+	font-size:13px;
+	padding: 20px auto;
+}
+h4 a{
+	text-decoration: none;
+	color: #44545E;
+	border: 1px solid black;
+}
+
+.gallery{
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+}
+/* ----------------------------------------
+}
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+footer{
+	color: #44545E;
+	background-color: #C8F0F4;
+	padding-top: 40px;
+	font-size: 15px;
+	font-family: "Lato";
+	font-weight: bold;
+	margin-top: 45px;
+}
+footer a{
+		padding: 25px;
+		color: #44545E;
+}
+input{
+	margin: 25px;
+	text-align: center;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
