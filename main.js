@@ -35,9 +35,13 @@ function play (humanPlay, computerPlay) {
     // Add one to the computerScore variable (be sure to use += )
     if (humanPlay === computerPlay) {
       console.log ("You Tied");
-    } else if (humanPlay === "paper" && computerPlay === "rock" || humanPlay === "rock" && computerPlay === "scissors" || humanPlay === "scissors" && computerPlay ==="paper") {
+    } else if (humanPlay === "paper" && computerPlay === "rock" ||
+    humanPlay === "rock" && computerPlay === "scissors" ||
+    humanPlay === "scissors" && computerPlay ==="paper") {
+
       console.log("You win!");
       humanScore += 1;
+
     } else {
       console.log("You lose!");
       computerScore +=1;
@@ -50,14 +54,17 @@ function play (humanPlay, computerPlay) {
   // Log "The bot has {computerScore} points" to the console.
   // For example: "The bot has 3 points"
 
-play(rock,paper);
-play(rock,scissors);
-play(rock,rock);
-play(scissors,paper);
-play(scissors, scissors);
+play('rock','paper');
+play('rock','scissors');
+play('rock','rock');
+play('scissors','paper');
+play('scissors', 'scissors');
 
 // BONUS:
 // Create a "best of 3" version
+console.log ("best of 3")
+
+
 
 // SUPER CHALLENGE:
 // Google and implement a random choice for the computer each time.
